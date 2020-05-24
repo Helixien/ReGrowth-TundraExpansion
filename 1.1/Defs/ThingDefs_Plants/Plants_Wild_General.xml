@@ -2,39 +2,6 @@
 <Defs>
 
     <ThingDef ParentName="PlantBase">
-        <defName>RG-B_Cibarius</defName>
-        <label>cibarius</label>
-        <description>A small brown and delicious mushroom growing in clusters. It grows exclusively in boreal forests.</description>
-        <graphicData>
-            <texPath>Things/Plant/Cibarius</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </graphicData>
-        <statBases>
-            <MaxHitPoints>120</MaxHitPoints>
-            <Beauty>2</Beauty>
-            <Nutrition>0.4</Nutrition>
-        </statBases>
-        <selectable>true</selectable>
-        <neverMultiSelect>false</neverMultiSelect>
-        <pathCost>5</pathCost>
-        <ingestible />
-        <plant>
-            <fertilityMin>0.04</fertilityMin>
-            <fertilitySensitivity>0.15</fertilitySensitivity>
-            <growDays>45</growDays>
-            <maxMeshCount>4</maxMeshCount>
-            <dieIfLeafless>true</dieIfLeafless>
-            <harvestYield>20</harvestYield>
-            <harvestTag>Standard</harvestTag>
-            <harvestedThingDef>RawFungus</harvestedThingDef>
-            <neverBlightable>true</neverBlightable>
-            <visualSizeRange>0.3~0.5</visualSizeRange>
-            <topWindExposure>0.1</topWindExposure>
-            <purpose>Food</purpose>
-        </plant>
-    </ThingDef>
-
-    <ThingDef ParentName="PlantBase">
         <defName>RG-B_Plant_BramblesRed</defName>
         <label>brambles</label>
         <description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>

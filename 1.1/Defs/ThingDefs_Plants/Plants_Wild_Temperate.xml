@@ -67,7 +67,7 @@
     <ThingDef ParentName="TreeBase">
         <defName>RG-B_Plant_YellowTreePine</defName>
         <label>pine tree</label>
-        <description>A smaller yellowish conifer growing only in tundras.</description>
+        <description>A rare yellowish conifer. Being very frost-resistant it grows only in tundra and cold bog regions.</description>
         <graphicData>
             <texPath>Things/Plant/YellowTreePine</texPath>
             <graphicClass>Graphic_Random</graphicClass>
@@ -77,13 +77,13 @@
             </shadowData>
         </graphicData>
         <statBases>
-            <Beauty>4</Beauty>
+            <Beauty>8</Beauty>
             <Nutrition>0.6</Nutrition>
         </statBases>
         <ingestible />
         <plant>
             <growDays>35</growDays>
-            <visualSizeRange>1.4~2.2</visualSizeRange>
+            <visualSizeRange>1.5~2.8</visualSizeRange>
             <harvestWork>750</harvestWork>
             <harvestYield>10</harvestYield>
         </plant>
