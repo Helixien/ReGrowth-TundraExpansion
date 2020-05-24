@@ -11,5 +11,6 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>VanillaExpanded.VTEXE</li>
 	</loadAfter>
 </ModMetaData>

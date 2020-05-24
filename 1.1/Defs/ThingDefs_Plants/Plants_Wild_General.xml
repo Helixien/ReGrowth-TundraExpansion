@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="PlantBase">
-        <defName>RG-B_Plant_BramblesRed</defName>
+        <defName>RG-T_Plant_BramblesRed</defName>
         <label>brambles</label>
         <description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
         <statBases>
@@ -32,7 +32,7 @@
     </ThingDef>
 
     <ThingDef ParentName="PlantBase">
-        <defName>RG-B_Plant_BramblesYellow</defName>
+        <defName>RG-T_Plant_BramblesYellow</defName>
         <label>brambles</label>
         <description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
         <statBases>
