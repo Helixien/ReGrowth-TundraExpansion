@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+                    <value>
+                        <RG-B_Plant_TundraCotton>0.8</RG-B_Plant_TundraCotton>
+                        <RG-B_Plant_LupineIceland>0.8</RG-B_Plant_LupineIceland>
+                        <Plant_Brambles>1.0</Plant_Brambles>
+						<RG-B_Cibarius>0.5</RG-B_Cibarius>
+                        <RG-B_Plant_BramblesRed>1.0</RG-B_Plant_BramblesRed>
+                        <RG-B_Plant_BramblesYellow>1.0</RG-B_Plant_BramblesYellow>
+						<RG-B_Plant_YellowTreePine>0.2</RG-B_Plant_YellowTreePine>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+                    <value>
+                        <RG-B_Plant_LupineIceland>1.5</RG-B_Plant_LupineIceland>
+                        <RG-B_Plant_BramblesRed>2.0</RG-B_Plant_BramblesRed>
+                        <RG-B_Plant_BramblesYellow>2.0</RG-B_Plant_BramblesYellow>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+                    <value>
+                        <RG-B_Plant_LupineIceland>0.4</RG-B_Plant_LupineIceland>
+						<RG-B_Cibarius>0.5</RG-B_Cibarius>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

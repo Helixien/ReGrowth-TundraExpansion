@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="PlantBase">
+        <defName>RG-B_Plant_LupineIceland</defName>
+        <label>lupine</label>
+        <description>A long beautiful wildflower that grows in colder climates.</description>
+        <statBases>
+            <MaxHitPoints>75</MaxHitPoints>
+            <Beauty>6</Beauty>
+            <Nutrition>0.16</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plant/Lupine</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <hideAtSnowDepth>0.6</hideAtSnowDepth>
+        <ingestible />
+        <plant>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
+            <growDays>2.5</growDays>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
+            <maxMeshCount>16</maxMeshCount>
+            <visualSizeRange>0.5~0.7</visualSizeRange>
+            <topWindExposure>0.3</topWindExposure>
+            <wildClusterRadius>4</wildClusterRadius>
+            <wildClusterWeight>3</wildClusterWeight>
+            <wildOrder>1</wildOrder>
+            <purpose>Beauty</purpose>
+        </plant>
+    </ThingDef>
+
+    <ThingDef ParentName="PlantBase">
+        <defName>RG-B_Plant_TundraCotton</defName>
+        <label>tundra cotton</label>
+        <description>A small flower with large cotton looking balls. Being very frost-resistant it grows only in tundra regions.</description>
+        <graphicData>
+            <texPath>Things/Plant/TundraCotton</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <hideAtSnowDepth>0.7</hideAtSnowDepth>
+        <statBases>
+            <MaxHitPoints>95</MaxHitPoints>
+            <Beauty>5</Beauty>
+            <Nutrition>0.06</Nutrition>
+        </statBases>
+        <plant>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0.3</fertilitySensitivity>
+            <growDays>4.6</growDays>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
+            <maxMeshCount>9</maxMeshCount>
+            <visualSizeRange>0.3~0.6</visualSizeRange>
+            <topWindExposure>0.2</topWindExposure>
+            <wildClusterRadius>4</wildClusterRadius>
+            <wildClusterWeight>20</wildClusterWeight>
+            <wildOrder>1</wildOrder>
+            <purpose>Beauty</purpose>
+        </plant>
+    </ThingDef>
+
+    <ThingDef ParentName="TreeBase">
+        <defName>RG-B_Plant_YellowTreePine</defName>
+        <label>pine tree</label>
+        <description>A smaller yellowish conifer growing only in tundras.</description>
+        <graphicData>
+            <texPath>Things/Plant/YellowTreePine</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.15, 0.3, 0.15)</volume>
+                <offset>(0,0,-0.38)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <Beauty>4</Beauty>
+            <Nutrition>0.6</Nutrition>
+        </statBases>
+        <ingestible />
+        <plant>
+            <growDays>35</growDays>
+            <visualSizeRange>1.4~2.2</visualSizeRange>
+            <harvestWork>750</harvestWork>
+            <harvestYield>10</harvestYield>
+        </plant>
+    </ThingDef>
+
+</Defs>
