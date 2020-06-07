@@ -13,8 +13,8 @@
                     <value>
                         <RG-T_Plant_TundraCotton>0.4</RG-T_Plant_TundraCotton>
                         <RG-T_Plant_LupineIceland>0.4</RG-T_Plant_LupineIceland>
-                        <RG-T_Plant_BramblesRed>1.0</RG-T_Plant_BramblesRed>
-                        <RG-T_Plant_BramblesYellow>1.0</RG-T_Plant_BramblesYellow>
+                        <RG-T_Plant_BramblesRed>0.8</RG-T_Plant_BramblesRed>
+                        <RG-T_Plant_BramblesYellow>0.8</RG-T_Plant_BramblesYellow>
 						<RG-T_Plant_YellowTreePine>0.005</RG-T_Plant_YellowTreePine>
                     </value>
                 </li>

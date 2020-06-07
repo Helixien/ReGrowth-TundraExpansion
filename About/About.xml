@@ -11,6 +11,7 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>ReGrowth.BOTR.Core</li>
 		<li>VanillaExpanded.VTEXE</li>
 	</loadAfter>
 </ModMetaData>
