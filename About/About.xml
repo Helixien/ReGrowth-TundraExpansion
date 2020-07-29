@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>ReGrowth: Biomes of The Rim - Tundra Expansion</name>
+	<name>ReGrowth - Tundra Expansion</name>
 	<author>Helixien</author>
 	<supportedVersions>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
-	<url></url>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2107412614</url>
 	<packageId>ReGrowth.BOTR.TundraExpansion</packageId>
 	<description>Check the workshop page for information.</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>ReGrowth.BOTR.Core</li>
-		<li>VanillaExpanded.VTEXE</li>
 	</loadAfter>
 </ModMetaData>
