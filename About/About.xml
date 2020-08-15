@@ -12,7 +12,5 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
-		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>ReGrowth.BOTR.Core</li>
 	</loadAfter>
 </ModMetaData>
