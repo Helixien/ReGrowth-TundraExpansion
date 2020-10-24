@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ReGrowth - Tundra Expansion</name>
+	<author>Helixien</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2107412614</url>
+	<packageId>ReGrowth.BOTR.TundraExpansion</packageId>
+	<description>Check the workshop page for information.</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+</ModMetaData>
