@@ -2,7 +2,37 @@
 <Defs>
 
     <ThingDef ParentName="PlantBase">
-        <defName>RG-TE_Plant_BramblesRed</defName>
+        <defName>RG-T_Hygrophorus</defName>
+        <label>hygrophorus</label>
+        <description>A tiny purple and uneatable mushroom growing in small clusters. It can be found exclusively in tundra biomes.</description>
+        <graphicData>
+            <texPath>Things/Plant/Hygrophorus</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Beauty>2</Beauty>
+            <Nutrition>0.4</Nutrition>
+        </statBases>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <pathCost>5</pathCost>
+        <ingestible />
+        <plant>
+            <fertilityMin>0.04</fertilityMin>
+            <fertilitySensitivity>0.15</fertilitySensitivity>
+            <growDays>45</growDays>
+            <maxMeshCount>4</maxMeshCount>
+            <dieIfLeafless>true</dieIfLeafless>
+            <neverBlightable>true</neverBlightable>
+            <visualSizeRange>0.5~0.7</visualSizeRange>
+            <topWindExposure>0.1</topWindExposure>
+            <purpose>Food</purpose>
+        </plant>
+    </ThingDef>
+
+    <ThingDef ParentName="PlantBase">
+        <defName>RG-T_Plant_BramblesRed</defName>
         <label>brambles</label>
         <description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
         <statBases>
@@ -32,7 +62,7 @@
     </ThingDef>
 
     <ThingDef ParentName="PlantBase">
-        <defName>RG-TE_Plant_BramblesYellow</defName>
+        <defName>RG-T_Plant_BramblesYellow</defName>
         <label>brambles</label>
         <description>Tangled, thorny, woody shoots covered with leaves. Brambles grow in clusters, and slow down anyone moving over them.</description>
         <statBases>
