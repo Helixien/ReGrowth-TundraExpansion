@@ -8,9 +8,28 @@
         <match Class="PatchOperationSequence">
             <success>Always</success>
             <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "Tundra"]/terrainsByFertility</xpath>
+                    <value>
+						<terrainsByFertility>
+							<li>
+								<terrain>RG-T_TundraSoil</terrain>
+								<min>-999</min>
+								<max>0.87</max>
+							</li>
+							<li>
+								<terrain>SoilRich</terrain>
+								<min>0.87</min>
+								<max>999</max>
+							</li>
+						</terrainsByFertility>
+						</value>
+                </li>
                 <li Class="PatchOperationAdd">
                     <xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
                     <value>
+						<RG-T_Plant_TundraGrass>8</RG-T_Plant_TundraGrass>
+						<RG-T_Plant_TundraTallGrass>5</RG-T_Plant_TundraTallGrass>
 						<RG-T_Plant_TundraCotton>0.4</RG-T_Plant_TundraCotton>
                         <RG-T_Plant_LupineIceland>0.4</RG-T_Plant_LupineIceland>
                         <RG-T_Plant_BramblesRed>0.8</RG-T_Plant_BramblesRed>
