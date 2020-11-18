@@ -3,7 +3,7 @@
 
     <TerrainDef ParentName="NaturalTerrainBase">
         <defName>RG-T_TundraSoil</defName>
-        <label>moss-coveredsoil</label>
+        <label>moss-covered soil</label>
         <texturePath>Terrain/Surfaces/TundraSoil</texturePath>
         <edgeType>FadeRough</edgeType>
         <renderPrecedence>340</renderPrecedence>
