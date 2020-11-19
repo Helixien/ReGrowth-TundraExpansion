@@ -13,7 +13,7 @@
                     <value>
 						<terrainsByFertility>
 							<li>
-								<terrain>RG-T_TundraSoil</terrain>
+								<terrain>RG_TundraSoil</terrain>
 								<min>-999</min>
 								<max>0.87</max>
 							</li>
