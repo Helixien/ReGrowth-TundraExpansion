@@ -301,7 +301,7 @@
             <maxMeshCount>4</maxMeshCount>
             <dieIfLeafless>true</dieIfLeafless>
             <neverBlightable>true</neverBlightable>
-            <visualSizeRange>0.5~0.7</visualSizeRange>
+            <visualSizeRange>0.3~0.5</visualSizeRange>
             <topWindExposure>0.1</topWindExposure>
             <purpose>Food</purpose>
         </plant>
