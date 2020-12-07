@@ -80,6 +80,7 @@
             <fertilitySensitivity>0.2</fertilitySensitivity>
             <growDays>15</growDays>
             <harvestWork>75</harvestWork>
+			<leaflessGraphicPath>Things/Plant/Leafless/TundraScrubsRed_Leafless</leaflessGraphicPath>
             <maxMeshCount>16</maxMeshCount>
             <wildClusterRadius>4</wildClusterRadius>
             <wildClusterWeight>8</wildClusterWeight>
